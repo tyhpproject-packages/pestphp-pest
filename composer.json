@@ -1,0 +1,19 @@
+{
+    "name": "tyhpdef/pestphp-pest",
+    "description": "Tyhp type definitions for pestphp/pest 4.7.8.",
+    "type": "metapackage",
+    "license": "Apache-2.0",
+    "version": "4.7.8",
+    "keywords": [
+        "dev",
+        "static analysis"
+    ],
+    "require": {
+        "tyhpdef/pestphp-pest-impl": "~4.7.8.0"
+    },
+    "extra": {
+        "tyhp": {
+            "impl": "tyhpdef/pestphp-pest-impl"
+        }
+    }
+}
